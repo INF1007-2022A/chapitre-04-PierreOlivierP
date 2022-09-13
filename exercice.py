@@ -3,6 +3,11 @@
 
 
 def is_even_len(string: str) -> bool:
+    miaou = len(is_even_len)
+    if miaou%2 == 0:
+        print("La fonction contient un nombre de caractères pair.")
+    else:
+        print("La fonction ne contient pas un nombre de caractères pair.")
     pass
 
 
