@@ -3,7 +3,7 @@
 
 
 def is_even_len(string: str) -> bool:
-    miaou = len(is_even_len)
+    miaou = len(string)
     if miaou%2 == 0:
         return("La fonction contient un nombre de caractères pair.")
     else:
@@ -12,6 +12,7 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
+    return (string[0:2] + string[3:])
     pass
 
 
